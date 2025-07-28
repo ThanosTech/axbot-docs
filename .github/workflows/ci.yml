@@ -86,4 +86,4 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.SELFHOST_SERVER_IP }} >> ~/.ssh/known_hosts
       - run: |
-          ssh root@${{ secrets.SELFHOST_SERVER_IP }} 'cd /root/docker/axbot-docs && docker-compose pull && docker-compose up -d'
+          ssh root@${{ secrets.SELFHOST_SERVER_IP }} 'cd /root/docker/axbot-docs && docker compose pull && docker compose up -d'
