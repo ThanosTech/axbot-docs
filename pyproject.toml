@@ -1,11 +1,13 @@
 [project]
-name = "axbot-qq-docs"
+name = "axbot-docs"
 version = "0.1.0"
 description = ""
 authors = [{ name = "axiangcoding", email = "axiangcoding@gmail.com" }]
 requires-python = ">=3.11, <4"
 readme = "README.md"
-dependencies = ["mkdocs-material>=9.6.14,<10"]
+dependencies = [
+    "mkdocs-material>=9.6.14,<10",
+]
 
 [tool.uv]
 package = false

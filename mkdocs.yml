@@ -1,7 +1,7 @@
-site_name: AXBot QQ机器人
-site_url: https://ThanosTech.github.io/axbot-qq-docs
+site_name: AXBot 聊天机器人文档
+site_url: https://thanostech.github.io/axbot-docs/
 
-repo_url: https://github.com/ThanosTech/axbot-qq-docs/
+repo_url: https://github.com/ThanosTech/axbot-docs
 edit_uri: blob/main/docs/
 
 theme:
@@ -42,7 +42,8 @@ nav:
   - sponsor.md
   - report.md
   - 用户指南:
-      - user-guide/how-to-use.md
+      - user-guide/use-qq-platform.md
+      - user-guide/use-other-platform.md
       - user-guide/axbot-credit.md
   - 命令列表:
       - command-list/base-cmd.md
@@ -58,6 +59,7 @@ nav:
 markdown_extensions:
   - def_list
   - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
