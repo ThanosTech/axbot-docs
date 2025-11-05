@@ -1,7 +1,7 @@
 .PHONY: dev build build-image
 
 dev:
-	mkdocs serve
+	mkdocs serve --livereload
 
 build:
 	mkdocs build

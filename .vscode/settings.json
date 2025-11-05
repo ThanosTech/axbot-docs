@@ -1,6 +1,9 @@
 {
-    "makefile.configureOnOpen": false,
-    "markdownlint.config": {
-        "MD007": { "indent": 4 },
+  "makefile.configureOnOpen": false,
+  "markdownlint.config": {
+    "MD007": { "indent": 4 },
+    "MD033": {
+      "allowed_elements": ["img"]
     }
+  }
 }
